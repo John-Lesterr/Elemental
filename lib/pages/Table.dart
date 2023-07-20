@@ -53,8 +53,7 @@ class _ElementsState extends State<Elements> {
                   height: MediaQuery.of(context).size.height,
                   color: Color.fromRGBO(24, 24, 24, 1),
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 20),
+                    padding: const EdgeInsets.symmetric(horizontal: 20),
                     child: responsive.width > 720
                         ? GridView.count(
                             crossAxisCount: 4,
@@ -85,7 +84,7 @@ class _ElementsState extends State<Elements> {
                                       decoration: BoxDecoration(
                                         color: _color,
                                         borderRadius: BorderRadius.all(
-                                          Radius.circular(20.0),
+                                          Radius.circular(10.0),
                                         ),
                                       ),
                                       child: Column(
@@ -101,8 +100,8 @@ class _ElementsState extends State<Elements> {
                                               children: [
                                                 Text(
                                                   data[index]['atomicNumber'],
-                                                  style: GoogleFonts.nunito(
-                                                    fontSize: 25,
+                                                  style: GoogleFonts.poppins(
+                                                    fontSize: 22,
                                                     fontWeight: FontWeight.bold,
                                                     color: Colors.black,
                                                   ),
@@ -125,7 +124,7 @@ class _ElementsState extends State<Elements> {
                                                       child: Text(
                                                         data[index]['symbol'],
                                                         style:
-                                                            GoogleFonts.nunito(
+                                                            GoogleFonts.poppins(
                                                           fontSize: 40,
                                                           fontWeight:
                                                               FontWeight.bold,
@@ -141,7 +140,8 @@ class _ElementsState extends State<Elements> {
                                                   children: [
                                                     Text(
                                                       data[index]['name'],
-                                                      style: GoogleFonts.nunito(
+                                                      style:
+                                                          GoogleFonts.poppins(
                                                         fontSize: 20,
                                                         fontWeight:
                                                             FontWeight.bold,
@@ -190,7 +190,7 @@ class _ElementsState extends State<Elements> {
                                       decoration: BoxDecoration(
                                         color: _color,
                                         borderRadius: BorderRadius.all(
-                                          Radius.circular(20.0),
+                                          Radius.circular(10.0),
                                         ),
                                       ),
                                       child: Column(
@@ -204,7 +204,7 @@ class _ElementsState extends State<Elements> {
                                               children: [
                                                 Text(
                                                   data[index]['atomicNumber'],
-                                                  style: GoogleFonts.nunito(
+                                                  style: GoogleFonts.poppins(
                                                     fontSize: 25,
                                                     fontWeight: FontWeight.bold,
                                                     color: Colors.black,
@@ -220,7 +220,7 @@ class _ElementsState extends State<Elements> {
                                               Center(
                                                 child: Text(
                                                   data[index]['symbol'],
-                                                  style: GoogleFonts.nunito(
+                                                  style: GoogleFonts.poppins(
                                                     fontSize: 40,
                                                     fontWeight: FontWeight.bold,
                                                     color: Colors.black,
@@ -235,7 +235,7 @@ class _ElementsState extends State<Elements> {
                                             children: [
                                               Text(
                                                 data[index]['name'],
-                                                style: GoogleFonts.nunito(
+                                                style: GoogleFonts.poppins(
                                                   fontSize: 20,
                                                   fontWeight: FontWeight.bold,
                                                   color: Colors.black,

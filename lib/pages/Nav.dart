@@ -1,4 +1,4 @@
-import 'package:elemental/pages/About.dart';
+import 'package:elemental/pages/Dictionary.dart';
 import 'package:elemental/pages/Search.dart';
 import 'package:elemental/pages/Table.dart';
 import 'package:fluid_bottom_nav_bar/fluid_bottom_nav_bar.dart';
@@ -26,15 +26,15 @@ class _NavPageState extends State<NavPage> {
       bottomNavigationBar: FluidNavBar(
         animationFactor: 0.5,
         style: FluidNavBarStyle(
-          barBackgroundColor: Colors.greenAccent,
-          iconBackgroundColor: Colors.white54,
+          barBackgroundColor: Colors.black,
+          iconBackgroundColor: Color.fromARGB(255, 255, 255, 255),
           iconSelectedForegroundColor: Colors.white,
           iconUnselectedForegroundColor: Color.fromRGBO(16, 16, 16, 1),
         ),
         icons: [
+          FluidNavBarIcon(icon: Icons.home),
           FluidNavBarIcon(icon: Icons.search),
-          FluidNavBarIcon(icon: Icons.stream),
-          FluidNavBarIcon(icon: Icons.code_rounded),
+          FluidNavBarIcon(icon: Icons.book),
         ],
         onChange: _handleNavigationChange,
       ),
@@ -51,7 +51,7 @@ class _NavPageState extends State<NavPage> {
           _child = SearchPage();
           break;
         case 2:
-          _child = About();
+          _child = Dictionary();
           break;
       }
       _child = AnimatedSwitcher(

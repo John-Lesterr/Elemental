@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class About extends StatefulWidget {
+class Dictionary extends StatefulWidget {
   @override
-  _AboutState createState() => _AboutState();
+  _DictionaryState createState() => _DictionaryState();
 }
 
-class _AboutState extends State<About> {
+class _DictionaryState extends State<Dictionary> {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
@@ -22,8 +22,8 @@ class _AboutState extends State<About> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Text(
-                        'About the Dev',
-                        style: GoogleFonts.nunito(
+                        'Dictionary',
+                        style: GoogleFonts.poppins(
                           fontSize: 40,
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
@@ -79,13 +79,13 @@ class _AboutState extends State<About> {
                               //   height: 20,
                               // ),
                               Padding(
-                                padding: const EdgeInsets.symmetric(
-                                    horizontal: 10),
+                                padding:
+                                    const EdgeInsets.symmetric(horizontal: 10),
                                 child: Row(
                                   children: [
                                     Text(
                                       "Hey I'm ",
-                                      style: GoogleFonts.nunito(
+                                      style: GoogleFonts.poppins(
                                         fontSize: 30,
                                         color: Colors.black,
                                       ),
@@ -100,7 +100,7 @@ class _AboutState extends State<About> {
                                   children: [
                                     Text(
                                       "Shanwill Pinto",
-                                      style: GoogleFonts.nunito(
+                                      style: GoogleFonts.poppins(
                                         fontSize: 30,
                                         fontWeight: FontWeight.bold,
                                         color: Colors.black,
@@ -119,7 +119,7 @@ class _AboutState extends State<About> {
                                       child: Container(
                                         child: Text(
                                           "I'm a flutter dev from Mangalore, India",
-                                          style: GoogleFonts.nunito(
+                                          style: GoogleFonts.poppins(
                                             fontSize: 25,
                                             fontWeight: FontWeight.w600,
                                             color: Colors.teal[700],
@@ -166,7 +166,7 @@ class _AboutState extends State<About> {
                                           children: [
                                             Text(
                                               'Like the experience ?',
-                                              style: GoogleFonts.nunito(
+                                              style: GoogleFonts.poppins(
                                                 fontSize: 20,
                                                 fontWeight: FontWeight.w600,
                                                 color: Colors.white,
@@ -203,7 +203,7 @@ class _AboutState extends State<About> {
                                                         textAlign:
                                                             TextAlign.center,
                                                         style:
-                                                            GoogleFonts.nunito(
+                                                            GoogleFonts.poppins(
                                                           fontSize: 15,
                                                           fontWeight:
                                                               FontWeight.w600,
@@ -363,7 +363,7 @@ class _AboutState extends State<About> {
                                   children: [
                                     Text(
                                       'This app is built using ',
-                                      style: GoogleFonts.nunito(
+                                      style: GoogleFonts.poppins(
                                         fontSize: 20,
                                         fontWeight: FontWeight.w600,
                                         color: Colors.white,
@@ -399,7 +399,7 @@ class _AboutState extends State<About> {
               ],
             )
           : SafeArea(
-            child: ListView(
+              child: ListView(
                 children: [
                   Padding(
                     padding: const EdgeInsets.only(left: 20),
@@ -408,7 +408,7 @@ class _AboutState extends State<About> {
                       children: [
                         Text(
                           'About the Dev',
-                          style: GoogleFonts.nunito(
+                          style: GoogleFonts.poppins(
                             fontSize: 40,
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -467,13 +467,13 @@ class _AboutState extends State<About> {
                                   height: 20,
                                 ),
                                 Padding(
-                                  padding:
-                                      const EdgeInsets.symmetric(horizontal: 10),
+                                  padding: const EdgeInsets.symmetric(
+                                      horizontal: 10),
                                   child: Row(
                                     children: [
                                       Text(
                                         "Hey I'm ",
-                                        style: GoogleFonts.nunito(
+                                        style: GoogleFonts.poppins(
                                           fontSize: 20,
                                           color: Colors.black,
                                         ),
@@ -488,7 +488,7 @@ class _AboutState extends State<About> {
                                     children: [
                                       Text(
                                         "Shanwill Pinto",
-                                        style: GoogleFonts.nunito(
+                                        style: GoogleFonts.poppins(
                                           fontSize: 20,
                                           fontWeight: FontWeight.bold,
                                           color: Colors.black,
@@ -508,7 +508,7 @@ class _AboutState extends State<About> {
                                         child: Container(
                                           child: Text(
                                             "I'm a flutter dev from Mangalore, India",
-                                            style: GoogleFonts.nunito(
+                                            style: GoogleFonts.poppins(
                                               fontSize: 15,
                                               fontWeight: FontWeight.w600,
                                               color: Colors.teal[700],
@@ -555,7 +555,7 @@ class _AboutState extends State<About> {
                                     children: [
                                       Text(
                                         'This app is built using ',
-                                        style: GoogleFonts.nunito(
+                                        style: GoogleFonts.poppins(
                                           fontSize: 20,
                                           fontWeight: FontWeight.w600,
                                           color: Colors.white,
@@ -602,7 +602,8 @@ class _AboutState extends State<About> {
                                     String url =
                                         'https://www.github.com/data-charya';
                                     launch(url,
-                                        forceSafariVC: true, forceWebView: true);
+                                        forceSafariVC: true,
+                                        forceWebView: true);
                                   },
                                   child: Container(
                                     decoration: BoxDecoration(
@@ -612,8 +613,8 @@ class _AboutState extends State<About> {
                                     child: Center(
                                       child: Padding(
                                         padding: const EdgeInsets.all(10),
-                                        child:
-                                            Image.asset('assets/images/git.png'),
+                                        child: Image.asset(
+                                            'assets/images/git.png'),
                                       ),
                                     ),
                                   ),
@@ -634,7 +635,8 @@ class _AboutState extends State<About> {
                                     String url =
                                         'https://www.instagram.com/swo._.osh/';
                                     launch(url,
-                                        forceSafariVC: true, forceWebView: false);
+                                        forceSafariVC: true,
+                                        forceWebView: false);
                                   },
                                   child: Container(
                                     decoration: BoxDecoration(
@@ -666,7 +668,8 @@ class _AboutState extends State<About> {
                                     String url =
                                         'https://www.linkedin.com/in/shanwill-pinto-b286b7184/';
                                     launch(url,
-                                        forceSafariVC: true, forceWebView: false);
+                                        forceSafariVC: true,
+                                        forceWebView: false);
                                   },
                                   child: Container(
                                     decoration: BoxDecoration(
@@ -695,8 +698,8 @@ class _AboutState extends State<About> {
                                 width: 280,
                                 height: 200,
                                 child: Padding(
-                                  padding:
-                                      const EdgeInsets.symmetric(horizontal: 20),
+                                  padding: const EdgeInsets.symmetric(
+                                      horizontal: 20),
                                   child: Container(
                                     decoration: BoxDecoration(
                                       gradient: LinearGradient(
@@ -716,7 +719,7 @@ class _AboutState extends State<About> {
                                         children: [
                                           Text(
                                             'Like the experience ?',
-                                            style: GoogleFonts.nunito(
+                                            style: GoogleFonts.poppins(
                                               fontSize: 20,
                                               fontWeight: FontWeight.w600,
                                               color: Colors.white,
@@ -745,11 +748,14 @@ class _AboutState extends State<About> {
                                                 child: Center(
                                                   child: Padding(
                                                     padding:
-                                                        const EdgeInsets.all(8.0),
+                                                        const EdgeInsets.all(
+                                                            8.0),
                                                     child: Text(
                                                       'Tap here for more Flutter goodness',
-                                                      textAlign: TextAlign.center,
-                                                      style: GoogleFonts.nunito(
+                                                      textAlign:
+                                                          TextAlign.center,
+                                                      style:
+                                                          GoogleFonts.poppins(
                                                         fontSize: 15,
                                                         fontWeight:
                                                             FontWeight.w600,
@@ -775,7 +781,7 @@ class _AboutState extends State<About> {
                   ),
                 ],
               ),
-          ),
+            ),
     );
   }
 }

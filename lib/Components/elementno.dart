@@ -1,3 +1,4 @@
+// ignore: camel_case_types
 class elementno {
   Map element = {
     "Hydrogen": '1',

@@ -20,10 +20,10 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Elemental 3D',
+      title: 'Periodic Elements 3D',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.purple,
       ),
       home: Splash(),
       scrollBehavior: ScrollWithoutMaterialOverflowGlow(),

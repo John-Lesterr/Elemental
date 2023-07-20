@@ -68,7 +68,7 @@ class _SearchPageState extends State<SearchPage> {
                                 }
                               },
                               controller: _filter,
-                              style: GoogleFonts.nunito(
+                              style: GoogleFonts.poppins(
                                   fontSize: 20,
                                   fontWeight: FontWeight.w800,
                                   color: Colors.black45),
@@ -76,10 +76,10 @@ class _SearchPageState extends State<SearchPage> {
                                 fillColor: Colors.white,
                                 filled: true,
                                 border: OutlineInputBorder(
-                                  borderRadius: BorderRadius.circular(20),
+                                  borderRadius: BorderRadius.circular(10),
                                 ),
                                 hintText: 'Search element ..',
-                                hintStyle: GoogleFonts.nunito(
+                                hintStyle: GoogleFonts.poppins(
                                   fontSize: 15,
                                   fontWeight: FontWeight.w800,
                                   color: Colors.black54,
@@ -121,7 +121,7 @@ class _SearchPageState extends State<SearchPage> {
                         child: Container(
                           decoration: BoxDecoration(
                             color: Colors.white,
-                            borderRadius: BorderRadius.circular(20),
+                            borderRadius: BorderRadius.circular(10),
                           ),
                           child: Center(
                             child: Column(
@@ -155,7 +155,8 @@ class _SearchPageState extends State<SearchPage> {
                                                   children: [
                                                     Text(
                                                       'Alkali Metals',
-                                                      style: GoogleFonts.nunito(
+                                                      style:
+                                                          GoogleFonts.poppins(
                                                         fontSize: 20,
                                                         fontWeight:
                                                             FontWeight.w600,
@@ -211,7 +212,8 @@ class _SearchPageState extends State<SearchPage> {
                                                   children: [
                                                     Text(
                                                       'Alkaline Earth Metals',
-                                                      style: GoogleFonts.nunito(
+                                                      style:
+                                                          GoogleFonts.poppins(
                                                         fontSize: 20,
                                                         fontWeight:
                                                             FontWeight.w600,
@@ -267,7 +269,8 @@ class _SearchPageState extends State<SearchPage> {
                                                   children: [
                                                     Text(
                                                       'Transition Metal',
-                                                      style: GoogleFonts.nunito(
+                                                      style:
+                                                          GoogleFonts.poppins(
                                                         fontSize: 20,
                                                         fontWeight:
                                                             FontWeight.w600,
@@ -323,7 +326,8 @@ class _SearchPageState extends State<SearchPage> {
                                                   children: [
                                                     Text(
                                                       'Post-transition Metal',
-                                                      style: GoogleFonts.nunito(
+                                                      style:
+                                                          GoogleFonts.poppins(
                                                         fontSize: 20,
                                                         fontWeight:
                                                             FontWeight.w600,
@@ -379,7 +383,8 @@ class _SearchPageState extends State<SearchPage> {
                                                   children: [
                                                     Text(
                                                       'Metalloid',
-                                                      style: GoogleFonts.nunito(
+                                                      style:
+                                                          GoogleFonts.poppins(
                                                         fontSize: 20,
                                                         fontWeight:
                                                             FontWeight.w600,
@@ -445,7 +450,8 @@ class _SearchPageState extends State<SearchPage> {
                                                   children: [
                                                     Text(
                                                       'Reactive Non-Metal',
-                                                      style: GoogleFonts.nunito(
+                                                      style:
+                                                          GoogleFonts.poppins(
                                                         fontSize: 20,
                                                         fontWeight:
                                                             FontWeight.w600,
@@ -501,7 +507,8 @@ class _SearchPageState extends State<SearchPage> {
                                                   children: [
                                                     Text(
                                                       'Noble Gas',
-                                                      style: GoogleFonts.nunito(
+                                                      style:
+                                                          GoogleFonts.poppins(
                                                         fontSize: 20,
                                                         fontWeight:
                                                             FontWeight.w600,
@@ -557,7 +564,8 @@ class _SearchPageState extends State<SearchPage> {
                                                   children: [
                                                     Text(
                                                       'Lanthanide',
-                                                      style: GoogleFonts.nunito(
+                                                      style:
+                                                          GoogleFonts.poppins(
                                                         fontSize: 20,
                                                         fontWeight:
                                                             FontWeight.w600,
@@ -613,7 +621,8 @@ class _SearchPageState extends State<SearchPage> {
                                                   children: [
                                                     Text(
                                                       'Actinide',
-                                                      style: GoogleFonts.nunito(
+                                                      style:
+                                                          GoogleFonts.poppins(
                                                         fontSize: 20,
                                                         fontWeight:
                                                             FontWeight.w600,
@@ -669,7 +678,8 @@ class _SearchPageState extends State<SearchPage> {
                                                   children: [
                                                     Text(
                                                       'Unknown',
-                                                      style: GoogleFonts.nunito(
+                                                      style:
+                                                          GoogleFonts.poppins(
                                                         fontSize: 20,
                                                         fontWeight:
                                                             FontWeight.w600,
@@ -750,7 +760,7 @@ class _SearchPageState extends State<SearchPage> {
                               }
                             },
                             controller: _filter,
-                            style: GoogleFonts.nunito(
+                            style: GoogleFonts.poppins(
                                 fontSize: 20,
                                 fontWeight: FontWeight.w800,
                                 color: Colors.black45),
@@ -761,7 +771,7 @@ class _SearchPageState extends State<SearchPage> {
                                 borderRadius: BorderRadius.circular(20),
                               ),
                               hintText: 'Search element ..',
-                              hintStyle: GoogleFonts.nunito(
+                              hintStyle: GoogleFonts.poppins(
                                 fontSize: 15,
                                 fontWeight: FontWeight.w800,
                                 color: Colors.black54,
@@ -903,7 +913,7 @@ class _SearchPageState extends State<SearchPage> {
                               Text(
                                 res[index].substring(0, 1).toUpperCase() +
                                     res[index].substring(1),
-                                style: GoogleFonts.nunito(
+                                style: GoogleFonts.poppins(
                                   fontSize: 30,
                                   fontWeight: FontWeight.bold,
                                   color: Colors.black,
@@ -911,7 +921,7 @@ class _SearchPageState extends State<SearchPage> {
                               ),
                               Text(
                                 'Tap to know more',
-                                style: GoogleFonts.nunito(
+                                style: GoogleFonts.poppins(
                                   fontSize: 15,
                                   fontWeight: FontWeight.bold,
                                   color: Colors.black45,
@@ -942,6 +952,7 @@ class _SearchPageState extends State<SearchPage> {
   }
 }
 
+// ignore: camel_case_types
 class Search_something extends StatelessWidget {
   const Search_something({
     Key? key,
@@ -956,14 +967,14 @@ class Search_something extends StatelessWidget {
             height: 50,
           ),
           SizedBox(
-            width: 300,
-            height: 300,
+            width: 200,
+            height: 200,
             child: Lottie.asset('assets/search.json'),
           ),
           Text(
             'Search something...',
             textAlign: TextAlign.center,
-            style: GoogleFonts.nunito(
+            style: GoogleFonts.poppins(
               fontSize: 30,
               fontWeight: FontWeight.w600,
               color: Colors.white60,
@@ -988,7 +999,7 @@ class Notfound extends StatelessWidget {
           ),
           Text(
             'Not Found',
-            style: GoogleFonts.nunito(
+            style: GoogleFonts.poppins(
               fontSize: 30,
               fontWeight: FontWeight.w600,
               color: Colors.white60,

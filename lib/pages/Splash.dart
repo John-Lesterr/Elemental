@@ -11,7 +11,7 @@ class Splash extends StatefulWidget {
 class _SplashState extends State<Splash> {
   @override
   void initState() {
-    Future.delayed(Duration(seconds: 6), () {
+    Future.delayed(Duration(seconds: 5), () {
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => NavPage()));
     });
@@ -27,12 +27,12 @@ class _SplashState extends State<Splash> {
         children: [
           SizedBox(
             width: 400,
-            height: 100,
+            height: 400,
             child: Text(
-              'Elemental',
+              'Periodic Elements',
               textAlign: TextAlign.center,
-              style: GoogleFonts.nunito(
-                fontSize: 60,
+              style: GoogleFonts.poppins(
+                fontSize: 45,
                 fontWeight: FontWeight.bold,
                 color: Colors.white70,
               ),
@@ -40,8 +40,8 @@ class _SplashState extends State<Splash> {
           ),
           Center(
             child: SizedBox(
-              height: 400,
-              width: 400,
+              height: 350,
+              width: 350,
               child: Lottie.asset("assets/ele.json"),
             ),
           ),
@@ -49,9 +49,9 @@ class _SplashState extends State<Splash> {
             width: 400,
             height: 100,
             child: Text(
-              'Explore the elements in 3D',
+              'Explore the periodic elements in 3D',
               textAlign: TextAlign.center,
-              style: GoogleFonts.nunito(
+              style: GoogleFonts.poppins(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
                 color: Colors.greenAccent,

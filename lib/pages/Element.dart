@@ -50,7 +50,7 @@ class _ElementPageState extends State<ElementPage> {
                       ),
                       Text(
                         data[widget.atomicnum]['name'],
-                        style: GoogleFonts.nunito(
+                        style: GoogleFonts.poppins(
                           fontSize: 40,
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
@@ -101,7 +101,7 @@ class _ElementPageState extends State<ElementPage> {
                                         children: [
                                           Text(
                                             'More Info',
-                                            style: GoogleFonts.nunito(
+                                            style: GoogleFonts.poppins(
                                               fontSize: 40,
                                               fontWeight: FontWeight.bold,
                                               color: Colors.black87,
@@ -127,7 +127,7 @@ class _ElementPageState extends State<ElementPage> {
                                                   data[widget.atomicnum]
                                                       ['groupBlock'] +
                                                   ' elements.',
-                                              style: GoogleFonts.nunito(
+                                              style: GoogleFonts.poppins(
                                                 fontSize: 20,
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.green,
@@ -143,7 +143,7 @@ class _ElementPageState extends State<ElementPage> {
                                         children: [
                                           Text(
                                             'Atomic Radius : ',
-                                            style: GoogleFonts.nunito(
+                                            style: GoogleFonts.poppins(
                                               fontSize: 20,
                                               fontWeight: FontWeight.bold,
                                               color: Colors.black54,
@@ -153,7 +153,7 @@ class _ElementPageState extends State<ElementPage> {
                                             data[widget.atomicnum]
                                                     ['atomicRadius'] +
                                                 ' pm',
-                                            style: GoogleFonts.nunito(
+                                            style: GoogleFonts.poppins(
                                               fontSize: 20,
                                               fontWeight: FontWeight.bold,
                                               color: Colors.black,
@@ -168,7 +168,7 @@ class _ElementPageState extends State<ElementPage> {
                                           children: [
                                             Text(
                                               'Boiling Point : ',
-                                              style: GoogleFonts.nunito(
+                                              style: GoogleFonts.poppins(
                                                 fontSize: 20,
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.black54,
@@ -178,7 +178,7 @@ class _ElementPageState extends State<ElementPage> {
                                               data[widget.atomicnum]
                                                       ['boilingPoint'] +
                                                   ' K',
-                                              style: GoogleFonts.nunito(
+                                              style: GoogleFonts.poppins(
                                                 fontSize: 20,
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.black,
@@ -191,7 +191,7 @@ class _ElementPageState extends State<ElementPage> {
                                         children: [
                                           Text(
                                             'Melting Point : ',
-                                            style: GoogleFonts.nunito(
+                                            style: GoogleFonts.poppins(
                                               fontSize: 20,
                                               fontWeight: FontWeight.bold,
                                               color: Colors.black54,
@@ -201,7 +201,7 @@ class _ElementPageState extends State<ElementPage> {
                                             data[widget.atomicnum]
                                                     ['meltingPoint'] +
                                                 ' K',
-                                            style: GoogleFonts.nunito(
+                                            style: GoogleFonts.poppins(
                                               fontSize: 20,
                                               fontWeight: FontWeight.bold,
                                               color: Colors.black,
@@ -216,7 +216,7 @@ class _ElementPageState extends State<ElementPage> {
                                           children: [
                                             Text(
                                               'Electronic config : ',
-                                              style: GoogleFonts.nunito(
+                                              style: GoogleFonts.poppins(
                                                 fontSize: 20,
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.black54,
@@ -225,7 +225,7 @@ class _ElementPageState extends State<ElementPage> {
                                             Text(
                                               data[widget.atomicnum]
                                                   ['electronicConfiguration'],
-                                              style: GoogleFonts.nunito(
+                                              style: GoogleFonts.poppins(
                                                 fontSize: 20,
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.black,
@@ -238,7 +238,7 @@ class _ElementPageState extends State<ElementPage> {
                                         children: [
                                           Text(
                                             'Ionisation Energy : ',
-                                            style: GoogleFonts.nunito(
+                                            style: GoogleFonts.poppins(
                                               fontSize: 20,
                                               fontWeight: FontWeight.bold,
                                               color: Colors.black54,
@@ -248,7 +248,7 @@ class _ElementPageState extends State<ElementPage> {
                                             data[widget.atomicnum]
                                                     ['ionizationEnergy'] +
                                                 ' joules',
-                                            style: GoogleFonts.nunito(
+                                            style: GoogleFonts.poppins(
                                               fontSize: 20,
                                               fontWeight: FontWeight.bold,
                                               color: Colors.black,
@@ -263,7 +263,7 @@ class _ElementPageState extends State<ElementPage> {
                                           children: [
                                             Text(
                                               'State of matter : ',
-                                              style: GoogleFonts.nunito(
+                                              style: GoogleFonts.poppins(
                                                 fontSize: 20,
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.black54,
@@ -277,7 +277,7 @@ class _ElementPageState extends State<ElementPage> {
                                                   data[widget.atomicnum]
                                                           ['standardState']
                                                       .substring(1),
-                                              style: GoogleFonts.nunito(
+                                              style: GoogleFonts.poppins(
                                                 fontSize: 20,
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.black,
@@ -290,7 +290,7 @@ class _ElementPageState extends State<ElementPage> {
                                         children: [
                                           Text(
                                             'Van der Waals radius : ',
-                                            style: GoogleFonts.nunito(
+                                            style: GoogleFonts.poppins(
                                               fontSize: 20,
                                               fontWeight: FontWeight.bold,
                                               color: Colors.black54,
@@ -300,7 +300,7 @@ class _ElementPageState extends State<ElementPage> {
                                             data[widget.atomicnum]
                                                     ['vanDelWaalsRadius'] +
                                                 ' pm',
-                                            style: GoogleFonts.nunito(
+                                            style: GoogleFonts.poppins(
                                               fontSize: 20,
                                               fontWeight: FontWeight.bold,
                                               color: Colors.black,
@@ -340,7 +340,7 @@ class _ElementPageState extends State<ElementPage> {
                       ),
                       Text(
                         data[widget.atomicnum]['name'],
-                        style: GoogleFonts.nunito(
+                        style: GoogleFonts.poppins(
                           fontSize: 40,
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
@@ -399,7 +399,7 @@ class _ElementPageState extends State<ElementPage> {
                                   children: [
                                     Text(
                                       'More Info',
-                                      style: GoogleFonts.nunito(
+                                      style: GoogleFonts.poppins(
                                         fontSize: 40,
                                         fontWeight: FontWeight.bold,
                                         color: Colors.black87,
@@ -425,7 +425,7 @@ class _ElementPageState extends State<ElementPage> {
                                             data[widget.atomicnum]
                                                 ['groupBlock'] +
                                             ' elements.',
-                                        style: GoogleFonts.nunito(
+                                        style: GoogleFonts.poppins(
                                           fontSize: 20,
                                           fontWeight: FontWeight.bold,
                                           color: Colors.green,
@@ -441,7 +441,7 @@ class _ElementPageState extends State<ElementPage> {
                                   children: [
                                     Text(
                                       'Atomic Radius : ',
-                                      style: GoogleFonts.nunito(
+                                      style: GoogleFonts.poppins(
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                         color: Colors.black54,
@@ -450,7 +450,7 @@ class _ElementPageState extends State<ElementPage> {
                                     Text(
                                       data[widget.atomicnum]['atomicRadius'] +
                                           ' pm',
-                                      style: GoogleFonts.nunito(
+                                      style: GoogleFonts.poppins(
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                         color: Colors.black,
@@ -465,7 +465,7 @@ class _ElementPageState extends State<ElementPage> {
                                     children: [
                                       Text(
                                         'Boiling Point : ',
-                                        style: GoogleFonts.nunito(
+                                        style: GoogleFonts.poppins(
                                           fontSize: 20,
                                           fontWeight: FontWeight.bold,
                                           color: Colors.black54,
@@ -474,7 +474,7 @@ class _ElementPageState extends State<ElementPage> {
                                       Text(
                                         data[widget.atomicnum]['boilingPoint'] +
                                             ' K',
-                                        style: GoogleFonts.nunito(
+                                        style: GoogleFonts.poppins(
                                           fontSize: 20,
                                           fontWeight: FontWeight.bold,
                                           color: Colors.black,
@@ -487,7 +487,7 @@ class _ElementPageState extends State<ElementPage> {
                                   children: [
                                     Text(
                                       'Melting Point : ',
-                                      style: GoogleFonts.nunito(
+                                      style: GoogleFonts.poppins(
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                         color: Colors.black54,
@@ -496,7 +496,7 @@ class _ElementPageState extends State<ElementPage> {
                                     Text(
                                       data[widget.atomicnum]['meltingPoint'] +
                                           ' K',
-                                      style: GoogleFonts.nunito(
+                                      style: GoogleFonts.poppins(
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                         color: Colors.black,
@@ -511,7 +511,7 @@ class _ElementPageState extends State<ElementPage> {
                                     children: [
                                       Text(
                                         'Electronic config : ',
-                                        style: GoogleFonts.nunito(
+                                        style: GoogleFonts.poppins(
                                           fontSize: 20,
                                           fontWeight: FontWeight.bold,
                                           color: Colors.black54,
@@ -520,7 +520,7 @@ class _ElementPageState extends State<ElementPage> {
                                       Text(
                                         data[widget.atomicnum]
                                             ['electronicConfiguration'],
-                                        style: GoogleFonts.nunito(
+                                        style: GoogleFonts.poppins(
                                           fontSize: 16,
                                           fontWeight: FontWeight.bold,
                                           color: Colors.black,
@@ -533,7 +533,7 @@ class _ElementPageState extends State<ElementPage> {
                                   children: [
                                     Text(
                                       'Ionisation Energy : ',
-                                      style: GoogleFonts.nunito(
+                                      style: GoogleFonts.poppins(
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                         color: Colors.black54,
@@ -543,7 +543,7 @@ class _ElementPageState extends State<ElementPage> {
                                       data[widget.atomicnum]
                                               ['ionizationEnergy'] +
                                           ' joules',
-                                      style: GoogleFonts.nunito(
+                                      style: GoogleFonts.poppins(
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                         color: Colors.black,
@@ -558,7 +558,7 @@ class _ElementPageState extends State<ElementPage> {
                                     children: [
                                       Text(
                                         'State of matter : ',
-                                        style: GoogleFonts.nunito(
+                                        style: GoogleFonts.poppins(
                                           fontSize: 20,
                                           fontWeight: FontWeight.bold,
                                           color: Colors.black54,
@@ -571,7 +571,7 @@ class _ElementPageState extends State<ElementPage> {
                                             data[widget.atomicnum]
                                                     ['standardState']
                                                 .substring(1),
-                                        style: GoogleFonts.nunito(
+                                        style: GoogleFonts.poppins(
                                           fontSize: 20,
                                           fontWeight: FontWeight.bold,
                                           color: Colors.black,
@@ -584,7 +584,7 @@ class _ElementPageState extends State<ElementPage> {
                                   children: [
                                     Text(
                                       'Van der Waals radius : ',
-                                      style: GoogleFonts.nunito(
+                                      style: GoogleFonts.poppins(
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                         color: Colors.black54,
@@ -594,7 +594,7 @@ class _ElementPageState extends State<ElementPage> {
                                       data[widget.atomicnum]
                                               ['vanDelWaalsRadius'] +
                                           ' pm',
-                                      style: GoogleFonts.nunito(
+                                      style: GoogleFonts.poppins(
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                         color: Colors.black,
@@ -672,7 +672,7 @@ class Sideinfo extends StatelessWidget {
                             child: Center(
                               child: Text(
                                 data[atomicnum]['symbol'],
-                                style: GoogleFonts.nunito(
+                                style: GoogleFonts.poppins(
                                   fontSize: 30,
                                   fontWeight: FontWeight.w800,
                                   color: Colors.black,
@@ -684,7 +684,7 @@ class Sideinfo extends StatelessWidget {
                       ),
                       Text(
                         'Atomic Symbol',
-                        style: GoogleFonts.nunito(
+                        style: GoogleFonts.poppins(
                           fontSize: 12,
                           fontWeight: FontWeight.w800,
                           color: Colors.black54,
@@ -712,7 +712,7 @@ class Sideinfo extends StatelessWidget {
                             child: Center(
                               child: Text(
                                 mass,
-                                style: GoogleFonts.nunito(
+                                style: GoogleFonts.poppins(
                                   fontSize: 20,
                                   fontWeight: FontWeight.w600,
                                   color: Colors.black,
@@ -724,7 +724,7 @@ class Sideinfo extends StatelessWidget {
                       ),
                       Text(
                         'Atomic Mass',
-                        style: GoogleFonts.nunito(
+                        style: GoogleFonts.poppins(
                           fontSize: 12,
                           fontWeight: FontWeight.w800,
                           color: Colors.black54,
@@ -753,7 +753,7 @@ class Sideinfo extends StatelessWidget {
                             child: Center(
                               child: Text(
                                 data[atomicnum]['electronegativity'],
-                                style: GoogleFonts.nunito(
+                                style: GoogleFonts.poppins(
                                   fontSize: 20,
                                   fontWeight: FontWeight.w600,
                                   color: Colors.black,
@@ -765,7 +765,7 @@ class Sideinfo extends StatelessWidget {
                       ),
                       Text(
                         'Electronegativity',
-                        style: GoogleFonts.nunito(
+                        style: GoogleFonts.poppins(
                           fontSize: 12,
                           fontWeight: FontWeight.w800,
                           color: Colors.black54,
@@ -793,7 +793,7 @@ class Sideinfo extends StatelessWidget {
                             child: Center(
                               child: Text(
                                 data[atomicnum]['yearDiscovered'],
-                                style: GoogleFonts.nunito(
+                                style: GoogleFonts.poppins(
                                   fontSize: 20,
                                   fontWeight: FontWeight.w600,
                                   color: Colors.black,
@@ -805,7 +805,7 @@ class Sideinfo extends StatelessWidget {
                       ),
                       Text(
                         'Year Discovered',
-                        style: GoogleFonts.nunito(
+                        style: GoogleFonts.poppins(
                           fontSize: 12,
                           fontWeight: FontWeight.w800,
                           color: Colors.black54,
@@ -823,6 +823,7 @@ class Sideinfo extends StatelessWidget {
   }
 }
 
+// ignore: must_be_immutable
 class Viewer extends StatefulWidget {
   var nu;
   @override
@@ -892,7 +893,7 @@ class _ViewerState extends State<Viewer> {
                         child: Center(
                           child: Text(
                             'Tap and drag to interact',
-                            style: GoogleFonts.nunito(
+                            style: GoogleFonts.poppins(
                               fontSize: 15,
                               fontWeight: FontWeight.w600,
                               color: Colors.black,

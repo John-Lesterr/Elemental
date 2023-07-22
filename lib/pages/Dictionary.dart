@@ -99,7 +99,7 @@ class _DictionaryState extends State<Dictionary> {
                                 child: Row(
                                   children: [
                                     Text(
-                                      "Shanwill Pinto",
+                                      "Danize Anne Diaz",
                                       style: GoogleFonts.poppins(
                                         fontSize: 30,
                                         fontWeight: FontWeight.bold,
@@ -118,7 +118,7 @@ class _DictionaryState extends State<Dictionary> {
                                       width: 200,
                                       child: Container(
                                         child: Text(
-                                          "I'm a flutter dev from Mangalore, India",
+                                          "I'm a flutter dev from GMA, Cavite",
                                           style: GoogleFonts.poppins(
                                             fontSize: 25,
                                             fontWeight: FontWeight.w600,
@@ -239,7 +239,7 @@ class _DictionaryState extends State<Dictionary> {
                                   child: GestureDetector(
                                     onTap: () {
                                       String url =
-                                          'https://www.github.com/data-charya';
+                                          'https://github.com/John-Lesterr/Elemental';
                                       launch(url,
                                           forceSafariVC: true,
                                           forceWebView: true);
@@ -600,7 +600,7 @@ class _DictionaryState extends State<Dictionary> {
                                 child: GestureDetector(
                                   onTap: () {
                                     String url =
-                                        'https://www.github.com/data-charya';
+                                        'https://github.com/John-Lesterr/Elemental';
                                     launch(url,
                                         forceSafariVC: true,
                                         forceWebView: true);

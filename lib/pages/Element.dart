@@ -80,7 +80,7 @@ class _ElementPageState extends State<ElementPage> {
                         ],
                       ),
                       Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 20),
+                        padding: const EdgeInsets.symmetric(vertical: 10),
                         child: Row(
                           children: [
                             SizedBox(
@@ -89,7 +89,7 @@ class _ElementPageState extends State<ElementPage> {
                               child: Container(
                                 decoration: BoxDecoration(
                                   color: Colors.white,
-                                  borderRadius: BorderRadius.circular(30),
+                                  borderRadius: BorderRadius.circular(10),
                                 ),
                                 child: Padding(
                                   padding: const EdgeInsets.symmetric(
@@ -639,13 +639,12 @@ class Sideinfo extends StatelessWidget {
             begin: Alignment.bottomLeft,
             end: Alignment.topRight,
             colors: [
-              Color.fromRGBO(74, 194, 154, 1),
-              Color.fromRGBO(189, 255, 243, 1)
+              Color.fromRGBO(15, 3, 73, 1),
             ],
           ),
           borderRadius: BorderRadius.only(
-            topRight: Radius.circular(30),
-            bottomRight: Radius.circular(30),
+            topRight: Radius.circular(10),
+            bottomRight: Radius.circular(10),
           ),
         ),
         child: Padding(
